@@ -1,0 +1,238 @@
+body {
+  font-family: Inter;
+  background-color: #333333;
+}
+
+.nav {
+  display: flex;
+  border: 2px solid #DFD6C5;
+  gap: 7px;
+  border-radius: 29px;
+  padding: 5px;
+}
+
+.company {
+  width: 300px;
+  height: 50px;
+  background-color: #8E886D;
+  color: black;
+  border-radius: 27px;
+  border: 1px solid #323025;
+}
+
+.collections {
+  background-color:#333333;
+  color:#B1A592;
+  width: 280px;
+  height: 50px;
+  border-radius: 27px;
+  border: 1px solid #DFD6C5;
+}
+
+.buttons {
+  width: 270px;
+  height: 50px;
+  color: #B1A592;
+  background-color: #333333;
+  border-radius: 27px;
+  border: 1px solid #DFD6C5;
+}
+
+.buttons1 {
+  width: 270px;
+  height: 50px;
+  color: #B1A592;
+  background-color: #333333;
+  align-self: flex-end;
+  border-radius: 27px;
+  border: 1px solid #DFD6C5;
+  margin-left: 455px;
+
+}
+
+.item0button {
+  background-color: #DFD6C5;
+  color: black;
+  width: 180px;
+  height: 30px;
+  border-radius: 27px;
+  border: 2px solid black;
+  margin-top: 30px;
+  margin-left: 20px;
+}
+
+.item1button {
+  margin-top: 30px;
+  background-color: #8E886D;
+  color: black;
+  width: 180px;
+  height: 30px;
+  border-radius: 27px;
+  border: 2px solid black;
+  margin-left: 20px;
+}
+
+.item3button {
+  background-color: #B1A48E;
+  color: black;
+  width: 180px;
+  height: 30px;
+  border-radius: 27px;
+  border: 2px solid black;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+.icon{
+  margin-top: 30px;
+  margin-left: 250px;
+  transition-duration: 1s;
+}
+.item3midiv{
+  height: 190px;
+}
+h1,h4,h3 ,h2,p {
+  margin-left: 20px;
+}
+
+.footer0,.footer1{
+  display:flex;
+}
+.footer1{
+  height: 100px;
+}
+#arrow{
+  margin-left: 1070px;
+}
+.material-symbols-outlined{
+margin-left: 440px;
+
+}
+.container {
+  display: grid;
+  height: 990px;
+  width: 1850px;
+  margin-top: 20px;
+  grid-template-rows: 475px 495px;
+  grid-template-columns: 615px 615px 615px;
+  gap: 15px;
+}
+
+.item0 {
+  background-color: #DFD6C5;
+  border-radius: 30px;
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+.line{
+  height: 4px;
+  width: 110px;
+  background-color:  #916E58;
+margin-top: 0;
+padding-top: 0;
+}
+.lineinside{
+  height: 4px;
+  width: 110px;
+  background-color:  black;
+margin-top: 0;
+padding-top: 0;
+animation: indicator 6s infinite ;
+}
+
+@keyframes indicator{
+  from{
+    width:0;
+  }
+  to{
+width:100%
+  }
+}
+.lineinside:hover{
+  transition-duration: 1s;
+}
+.nav:hover{
+  transform: scale(1.007);
+}
+.pic1 {
+  height: 758px;
+  width: 580px;
+  padding-left: 15px;
+  transition-duration: 1s;
+
+}
+.pic2{
+  height: 370px;
+  width:650px;
+  margin-top: 20px;
+  padding-right: 20px;
+  transition-duration: 1s;
+}
+.pic3{
+    height: 240px;
+  width:580px;
+  margin-top: 20px;
+margin-left: 15px;
+transition-duration: 1s;
+}
+
+.item1 {
+  grid-column-start: 2;
+  grid-column-end: 4;
+  background-color: #8E886D;
+  border-radius: 30px;
+}
+.item1div{
+  display: flex;
+}
+
+
+.item3 {
+  background-color: #B1A48E;
+  border-radius: 30px;
+}
+.item3div
+{
+display: flex;
+}
+
+.item2 {
+  background-color: #916E58;
+  border-radius: 30px;
+}
+.collections:hover{
+  background-color:#DFD6C5;
+  color: black;
+}
+.buttons:hover{
+  background-color: #DFD6C5;
+  color: black;
+}
+.buttons1:hover{
+  background-color:#DFD6C5;
+  color: black;
+}
+.pic1:hover{
+  transform: scale(1.02);
+}
+.pic2:hover{
+    transform: scale(1.02);
+}
+.pic3:hover{
+    transform: scale(1.02);
+}
+.icon:hover{
+    transform: scale(1.08);
+}
+.item0:hover{
+  transform: scale(1.02);
+}
+.item1:hover{
+  transform: scale(1.02);
+}.item2:hover{
+  transform: scale(1.02);
+}.item3:hover{
+  transform: scale(1.02);
+}
+.material-symbols-outlined:hover{
+transform: scale(1.5);
+}
